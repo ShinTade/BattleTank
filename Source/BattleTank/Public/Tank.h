@@ -38,5 +38,5 @@ private:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, Category = Firing)
-		float LanuchSpeed = 100000.0; // TODO find sensible default
+		float LanuchSpeed = 4000.0; // TODO find sensible default
 };
